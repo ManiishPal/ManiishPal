@@ -13,8 +13,14 @@
 
 ## 🌐 Connect With Me
 
-[![LinkedIn](https://www.linkedin.com/in/manish-pal8872/)
-[![Instagram](https://www.instagram.com/maniizzzzh/)
+
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/manish-pal8872/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge)](https://www.instagram.com/maniizzzzh/)
+
+
+
+https://www.instagram.com/maniizzzzh/
 
 ---
 
