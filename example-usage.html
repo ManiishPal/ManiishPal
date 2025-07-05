@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimized Notes App</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="optimized-notes.js" as="script">
+    <link rel="preload" href="images/delete.png" as="image">
+    
+    <!-- Critical CSS (inlined for performance) -->
+    <style>
+        /* Critical above-the-fold styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.2s;
+        }
+        
+        .btn:hover {
+            background: #0056b3;
+        }
+        
+        .notes-container {
+            min-height: 400px;
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        
+        .input-box {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 15px;
+            min-height: 60px;
+            position: relative;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        
+        .input-box:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+        }
+        
+        .input-box:empty::before {
+            content: "Write your note here...";
+            color: #6c757d;
+            font-style: italic;
+        }
+        
+        .delete-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+        
+        .delete-btn:hover {
+            opacity: 1;
+        }
+        
+        /* Performance optimizations */
+        .notes-container {
+            contain: layout style paint;
+        }
+        
+        .input-box {
+            contain: layout style;
+        }
+        
+        /* Loading state */
+        .loading {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+        
+        /* Error state */
+        .error {
+            color: #dc3545;
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .notes-container {
+                padding: 15px;
+            }
+            
+            .input-box {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📝 Optimized Notes App</h1>
+            <p>High-performance note-taking with local storage</p>
+        </header>
+        
+        <div class="controls">
+            <button class="btn" id="createBtn">+ Add New Note</button>
+        </div>
+        
+        <div class="notes-container" id="notesContainer">
+            <!-- Notes will be dynamically added here -->
+        </div>
+        
+        <!-- Performance monitoring (development only) -->
+        <div id="performance-info" style="display: none; margin-top: 20px; padding: 10px; background: #e9ecef; border-radius: 4px; font-size: 14px;">
+            <strong>Performance Metrics:</strong>
+            <div id="storage-time"></div>
+            <div id="memory-usage"></div>
+        </div>
+    </div>
+
+    <!-- Non-critical CSS can be loaded asynchronously -->
+    <link rel="stylesheet" href="non-critical.css" media="print" onload="this.media='all'">
+    
+    <!-- Application script -->
+    <script src="optimized-notes.js"></script>
+    
+    <!-- Performance monitoring script (development only) -->
+    <script>
+        // Performance monitoring for development
+        if (typeof window.performance !== 'undefined') {
+            // Monitor localStorage performance
+            const originalSetItem = Storage.prototype.setItem;
+            const originalGetItem = Storage.prototype.getItem;
+            
+            Storage.prototype.setItem = function(key, value) {
+                const start = performance.now();
+                const result = originalSetItem.call(this, key, value);
+                const end = performance.now();
+                
+                if (key === 'notes') {
+                    const perfInfo = document.getElementById('performance-info');
+                    const storageTime = document.getElementById('storage-time');
+                    if (perfInfo && storageTime) {
+                        perfInfo.style.display = 'block';
+                        storageTime.textContent = `Storage write: ${(end - start).toFixed(2)}ms`;
+                    }
+                }
+                
+                return result;
+            };
+            
+            // Monitor memory usage
+            if (window.performance.memory) {
+                setInterval(() => {
+                    const memoryInfo = document.getElementById('memory-usage');
+                    if (memoryInfo) {
+                        const used = (window.performance.memory.usedJSHeapSize / 1024 / 1024).toFixed(2);
+                        memoryInfo.textContent = `Memory usage: ${used}MB`;
+                    }
+                }, 5000);
+            }
+        }
+        
+        // Service Worker registration (optional)
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch(registrationError => {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
