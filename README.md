@@ -1,4 +1,5 @@
 <img src="https://art.pixilart.com/sr5zfce16fb1d7aws3.gif">
+<img src="https://user-images.githubusercontent.com/61025448/217821684-c850eafe-8dfa-4308-a2e3-eb5fce9a8268.gif">
 
 <h1 align="center">Hi 👋, I'm Manish Pal</h1>
 <h3 align="center">Full Stack Web Developer | MERN Stack Enthusiast</h3>
