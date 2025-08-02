@@ -1,6 +1,3 @@
-
-
-<blockquote class="pix-embed-wrap"><div class="pix-embed-activity" data-id="sr5z99c1dc38b3aws3" data-width="100" data-height="100" data-type="art" data-theme="light" data-show-edit="1">Pixilart Embed</div></blockquote></script>
 <h1 align="center">Hi 👋, I'm Manish Pal</h1>
 <h3 align="center">Full Stack Web Developer | MERN Stack Enthusiast</h3>
 
