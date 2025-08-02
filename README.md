@@ -1,3 +1,5 @@
+<img src="https://art.pixilart.com/sr5zfce16fb1d7aws3.gif">
+
 <h1 align="center">Hi 👋, I'm Manish Pal</h1>
 <h3 align="center">Full Stack Web Developer | MERN Stack Enthusiast</h3>
 
