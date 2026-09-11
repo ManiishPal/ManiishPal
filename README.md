@@ -260,21 +260,17 @@ These simulations included REST APIs, backend development, database design,
 data structures, data visualization, React applications, software architecture,
 cybersecurity, analytics, and Generative AI tasks. :contentReference[oaicite:3]{index=3}
 
-
-
-<table>
-  <tr>
-    <td align="center"><img src="./assets/glicgor.gif" width="90" alt="Flying character" /></td>
-    <td rowspan="2" align="center"><h2>Github Analytics ⚙️</h2></td>
-    <td align="center"><img src="./assets/glicgor.gif" width="90" alt="Flying character" /></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="./assets/glicgor.gif" width="90" alt="Flying character" /></td>
-    <td align="center"><img src="./assets/glicgor.gif" width="90" alt="Flying character" /></td>
-  </tr>
-</table>
-
-## 📊 GitHub Activity
+<h2 align="center">
+  <img src="./assets/glicgor.gif" width="75" alt="Flying character" />
+  &nbsp;&nbsp;
+  <img src="./assets/glicgor.gif" width="75" alt="Flying character" />
+  &nbsp;&nbsp;
+  Github Activity 📊
+  &nbsp;&nbsp;
+  <img src="./assets/glicgor.gif" width="75" alt="Flying character" />
+  &nbsp;&nbsp;
+  <img src="./assets/glicgor.gif" width="75" alt="Flying character" />
+</h2>
 
 <p align="center">
   <img
