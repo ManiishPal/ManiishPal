@@ -391,3 +391,11 @@ I'm interested in opportunities involving:
 <p align="center">
   <i>Bridging Imagination and Implementation.</i>
 </p>
+
+<p align="center">
+  <img src="./assets/space-shooter.gif" width="100%" alt="Space shooter GIF" />
+</p>
+
+<p align="center">
+  <img src="./assets/tenor.gif" width="100%" alt="Tenor GIF" />
+</p>
