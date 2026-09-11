@@ -4,7 +4,7 @@
 
 <!-- Character GIFs -->
 <p align="center">
-  <img src="./assets/anchestor%20-%20Copy.gif" width="120" height="150" valign="bottom"><img src="./assets/anchestor2%20-%20Copy.gif" width="120" height="150" valign="bottom"><img src="./assets/anchestor3%20-%20Copy.gif" width="150" height="210" valign="bottom"><img src="./assets/anchestor4%20-%20Copy.gif" width="120" height="150" valign="bottom"><img src="./assets/anchestor5%20-%20Copy.gif" width="120" height="150" valign="bottom">
+  <img src="./assets/anchestor5%20-%20Copy.gif" width="120" height="150" valign="bottom"><img src="./assets/anchestor3%20-%20Copy.gif" width="150" height="210" valign="bottom"><img src="./assets/anchestor2%20-%20Copy.gif" width="120" height="150" valign="bottom"><img src="./assets/anchestor4%20-%20Copy.gif" width="120" height="150" valign="bottom"><img src="./assets/anchestor%20-%20Copy.gif" width="120" height="150" valign="bottom">
 </p>
 
 <!-- GitHub Banner -->
