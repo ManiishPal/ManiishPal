@@ -199,51 +199,43 @@ A full-stack e-commerce application built with the MERN stack.
 
 ## 🏆 Achievements & Certifications
 
-- 🏅 **IBM Data Science Professional Certificate**
-  - Python
-  - SQL
-  - Machine Learning
-  - Data Analysis
-  - Data Visualization
-
-- ☁️ **NPTEL Elite Certification — Cloud Computing**
-  - IIT Kharagpur
-
-- 🤖 **Google Cloud Skill Badge**
-  - Gemini Multimodality
-  - Multimodal RAG
-  - Vertex AI
-  - Generative AI
-
-- 💻 **MERN Stack Development**
-  - Apna College
-  - MongoDB
-  - Express.js
-  - React.js
-  - Node.js
-  - REST APIs
-  - Authentication
-
-- 🌐 **19+ Forage Virtual Job Simulations**
-  - Walmart Global Tech
-  - JPMorgan Chase
-  - Wells Fargo
-  - BCG X
-  - Deloitte
-  - Tata
-  - Citi
-  - Siemens
-  - HPE
-  - Quantium
-
-- 📊 **Data Science, Machine Learning, Deep Learning & NLP Bootcamp**
-  - Python
-  - Machine Learning
-  - Deep Learning
-  - NLP
-  - TensorFlow
-  - PyTorch
-  - Scikit-learn
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Achievement / Certification</th>
+    <th>Skills, Provider, or Organizations</th>
+  </tr>
+  <tr>
+    <td>🏅 Certificate</td>
+    <td><strong>IBM Data Science Professional Certificate</strong></td>
+    <td>Python • SQL • Machine Learning • Data Analysis • Data Visualization</td>
+  </tr>
+  <tr>
+    <td>☁️ Certification</td>
+    <td><strong>NPTEL Elite Certification — Cloud Computing</strong></td>
+    <td>IIT Kharagpur</td>
+  </tr>
+  <tr>
+    <td>🤖 Skill Badge</td>
+    <td><strong>Google Cloud Skill Badge</strong></td>
+    <td>Gemini Multimodality • Multimodal RAG • Vertex AI • Generative AI</td>
+  </tr>
+  <tr>
+    <td>💻 Development</td>
+    <td><strong>MERN Stack Development</strong></td>
+    <td>Apna College • MongoDB • Express.js • React.js • Node.js • REST APIs • Authentication</td>
+  </tr>
+  <tr>
+    <td>🌐 Simulations</td>
+    <td><strong>19+ Forage Virtual Job Simulations</strong></td>
+    <td>Walmart Global Tech • JPMorgan Chase • Wells Fargo • BCG X • Deloitte • Tata • Citi • Siemens • HPE • Quantium</td>
+  </tr>
+  <tr>
+    <td>📊 Bootcamp</td>
+    <td><strong>Data Science, Machine Learning, Deep Learning &amp; NLP</strong></td>
+    <td>Python • Machine Learning • Deep Learning • NLP • TensorFlow • PyTorch • Scikit-learn</td>
+  </tr>
+</table>
 
 The certifications and achievement list above are based on the credentials and simulations documented in your resume. :contentReference[oaicite:2]{index=2}
 
