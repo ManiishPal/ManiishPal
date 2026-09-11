@@ -264,12 +264,7 @@ These simulations included REST APIs, backend development, database design,
 data structures, data visualization, React applications, software architecture,
 cybersecurity, analytics, and Generative AI tasks. :contentReference[oaicite:3]{index=3}
 
----
 
-<img width="1312" height="226" alt="image" src="https://github.com/user-attachments/assets/c2ea0c4d-d7e0-45fb-9ed8-09f823080fca" />
-
-
----
 
 ## 📊 GitHub Activity
 
