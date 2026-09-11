@@ -315,33 +315,6 @@ cybersecurity, analytics, and Generative AI tasks. :contentReference[oaicite:3]{
 - ☁️ Cloud Computing
 - 🔐 Authentication & secure application development
 
----
-
-## 🚀 Featured Applications
-
-<p align="center">
-
-  <a href="https://quickchat-frontend-one.vercel.app/">
-    <img
-      src="https://img.shields.io/badge/💬_Quickchat-Real--Time_Chat-111111?style=for-the-badge"
-    />
-  </a>
-
-  <a href="https://imagify-frontend-gamma.vercel.app/">
-    <img
-      src="https://img.shields.io/badge/🖼️_Imagify-Image_Platform-111111?style=for-the-badge"
-    />
-  </a>
-
-  <a href="https://e-commerce-website-beta-ten-43.vercel.app/">
-    <img
-      src="https://img.shields.io/badge/🛒_Forever-MERN_E--Commerce-111111?style=for-the-badge"
-    />
-  </a>
-
-</p>
-
----
 
 ## 🤝 Open to Opportunities
 
