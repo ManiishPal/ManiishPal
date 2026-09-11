@@ -34,6 +34,12 @@
   <a href="https://manish-portfolio-gamma-henna.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=for-the-badge" />
   </a>
+  <a href="https://leetcode.com/u/ManiishPal/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=white&style=for-the-badge" />
+  </a>
+  <a href="https://www.hackerrank.com/profile/Manish__Pal">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?logo=hackerrank&logoColor=white&style=for-the-badge" />
+  </a>
   <a href="mailto:manish8872pal@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" />
   </a>
@@ -342,6 +348,18 @@ I'm interested in opportunities involving:
   <a href="https://www.linkedin.com/in/manish-pal8872/">
     <img
       src="https://img.shields.io/badge/LinkedIn-Manish_Pal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+    />
+  </a>
+
+  <a href="https://leetcode.com/u/ManiishPal/">
+    <img
+      src="https://img.shields.io/badge/LeetCode-ManiishPal-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"
+    />
+  </a>
+
+  <a href="https://www.hackerrank.com/profile/Manish__Pal">
+    <img
+      src="https://img.shields.io/badge/HackerRank-Manish__Pal-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"
     />
   </a>
 
