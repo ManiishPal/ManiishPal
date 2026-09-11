@@ -266,6 +266,18 @@ cybersecurity, analytics, and Generative AI tasks. :contentReference[oaicite:3]{
 
 
 
+<table>
+  <tr>
+    <td align="center"><img src="./assets/glicgor.gif" width="90" alt="Flying character" /></td>
+    <td rowspan="2" align="center"><h2>Github Analytics ⚙️</h2></td>
+    <td align="center"><img src="./assets/glicgor.gif" width="90" alt="Flying character" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/glicgor.gif" width="90" alt="Flying character" /></td>
+    <td align="center"><img src="./assets/glicgor.gif" width="90" alt="Flying character" /></td>
+  </tr>
+</table>
+
 ## 📊 GitHub Activity
 
 <p align="center">
