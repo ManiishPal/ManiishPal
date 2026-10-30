@@ -173,7 +173,7 @@ AI/ML, databases, and problem solving.
   </tr>
 </table>
 
-The certifications and achievement list above are based on the credentials and simulations documented in your resume. :contentReference[oaicite:2]{index=2}
+The certifications and achievement list above are based on the credentials and simulations documented in your resume.
 
 ---
 
@@ -194,7 +194,7 @@ I've completed practical industry simulations covering:
 
 These simulations included REST APIs, backend development, database design,
 data structures, data visualization, React applications, software architecture,
-cybersecurity, analytics, and Generative AI tasks. :contentReference[oaicite:3]{index=3}
+cybersecurity, analytics, and Generative AI tasks. 
 
 <h2 align="center">
   <img src="./assets/glicgor.gif" width="75" alt="Flying character" />
